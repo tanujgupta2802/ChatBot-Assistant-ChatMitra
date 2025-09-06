@@ -48,7 +48,7 @@ export default function Section() {
       <div className="flex flex-col max-w-2xl mx-auto mt-6 p-4 sm:p-6">
         {/* Heading */}
         <h1 className="text-center text-2xl sm:text-4xl text-indigo-600 font-extrabold mb-4">
-          ChatTGP AI Assistant
+          ChatMitra AI Assistant
         </h1>
 
         {/* Chat box */}
