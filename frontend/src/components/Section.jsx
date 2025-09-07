@@ -374,6 +374,7 @@ export default function Section() {
   return (
     <div className="mt-30 sm:mt-50">
       <div className="flex flex-col max-w-2xl mx-auto mt-6 p-4 sm:p-6">
+<<<<<<< HEAD
         {/* Header with title and controls */}
         <div className="flex items-center justify-between mb-4">
           <h1 className="text-center text-2xl sm:text-4xl text-indigo-600 font-extrabold flex-1">
@@ -425,6 +426,12 @@ export default function Section() {
             exchanges
           </div>
         )}
+=======
+        {/* Heading */}
+        <h1 className="text-center text-2xl sm:text-4xl text-indigo-600 font-extrabold mb-4">
+          ChatMitra AI Assistant
+        </h1>
+>>>>>>> df0813d7d5d5dec7f91caeed77b62734cd28a429
 
         {/* Chat box */}
         <div className="w-full p-2 space-y-3 max-h-[60vh] overflow-y-auto scrollbar-hide">
