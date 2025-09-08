@@ -929,7 +929,7 @@ export default function Section() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className={`relative flex flex-col w-full max-w-4xl h-[90vh] sm:h-[85vh] mt-15 sm:mt-0 ${themeClasses.containerBg} ${themeClasses.border} backdrop-blur-xl rounded-2xl sm:rounded-3xl border shadow-2xl overflow-hidden`}
+        className={`relative flex flex-col w-full max-w-4xl h-[70vh] sm:h-[85vh] mt-15 sm:mt-0 ${themeClasses.containerBg} ${themeClasses.border} backdrop-blur-xl rounded-2xl sm:rounded-3xl border shadow-2xl overflow-hidden`}
       >
         {/* Glassmorphism overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent pointer-events-none" />
