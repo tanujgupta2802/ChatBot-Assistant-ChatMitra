@@ -95,10 +95,7 @@ const ChatMitraSidebar = ({
     const chatName = generateChatName(chatToDelete?.firstMessage);
 
     if (
-      onDeleteChat &&
-      window.confirm(
-        `Are you sure you want to delete "${chatName}"?\n\nThis action cannot be undone.`
-      )
+      onDeleteChat
     ) {
       console.log("Deleting chat:", chatId);
       onDeleteChat(chatId);
